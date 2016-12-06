@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@basic-react-webpack.git"
+    "url": "https://github.com/cooljl31/basic-react-app.git"
   },
   "keywords": [
     "react",
