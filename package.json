@@ -6,7 +6,9 @@
   "scripts": {
     "dev": "webpack-dev-server -p --progress --config webpack.config.js --port 9009",
     "build": "webpack --progress",
-    "start": "node server.js"
+    "start": "node server.js",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -40,6 +42,8 @@
     "font-awesome-webpack": "4.3.0",
     "react": "15.4.1",
     "react-dom": "15.4.1",
-    "url-loader": "0.5.7"
-  }
+    "url-loader": "0.5.7",
+    "snyk": "^1.317.0"
+  },
+  "snyk": true
 }
