@@ -40,6 +40,6 @@
     "font-awesome-webpack": "4.3.0",
     "react": "15.4.1",
     "react-dom": "15.4.1",
-    "url-loader": "0.5.7"
+    "url-loader": "4.0.0"
   }
 }
